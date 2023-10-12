@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logpage {
+    background-color: rgba(159, 157, 157, 0.5);
+    width: 400px;
+    height: 450px;
+    border-radius: 7px;
+    margin-top: 70px;
+    z-index: 1;
+    box-shadow: 10px 10px 25px rgba(26, 25, 25, 0.782);
+}
+
+.logpage h5 {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 12px;
+    font-size: 32px;
+    font-family: 'Finger Paint', cursive;
+    color: aqua;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+
+.logtext {
+
+    margin-top: 75px;
+    margin-left: 75px;
+}
+
+.email input[type=email] {
+    margin-bottom: 15px;
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 10px;
+    font-size: 17px;
+}
+
+.logtext #img1 {
+    position: absolute;
+    width: 25px;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.pass input[type=password] {
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 45px;
+    padding-right: 10px;
+    font-size: 17px;
+}
+
+.logtext #img2 {
+    position: absolute;
+    width: 17px;
+    padding-top: 29px;
+    margin-left: 10px;
+}
+
+.btn1 input[type=submit] {
+    position: absolute;
+    margin-left: 125px;
+    margin-top: 30px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(33, 238, 77, 0.792);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.btn1 input[type=submit]:hover {
+    background-color: rgb(37, 142, 62);
+    color: white;
+}
+
+.btn1 p {
+    position: absolute;
+    color: white;
+    margin-top: 80px;
+    margin-left: 155px;
+}
+
+.icon {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 80px;
+}
+
+.icon a {
+    padding: 15px;
+}
+
+.icon a img {
+    width: 27px;
+    height: 27px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    padding: 4px;
+}
+.icon a img:hover{
+    background-color: #182676;
+    box-shadow: 0px 0px 10px #7091f5;
+}
+.account a {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 120px;
+    text-decoration: underline;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}

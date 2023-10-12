@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Creative_World/style11.css">
+    <link rel="icon" type="image/x-icon" href="/Creative_World/image/video/favicon.png">
+    <script src="/Creative_World/responsive.js"></script>
+    <title>Digital Product Marketplace</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><video width="100" height="70" autoplay loop>
+                <source src="/Creative_World/image/video/logoimg.mp4" type="video/mp4">
+            </video>
+        </a>
+
+        <div class="headerflex">
+            <div class="mobsearch"><button><img src="/megaplex_website/image/searchicon.png" alt="Search logo"></button>
+            </div>
+            <div class="mobcart"><a href="/Creative_World/cart.html"><img src="/megaplex_website/image/shopping-cart.png"
+                        alt="Sopping cart"></a>
+            </div>
+
+            <div class="hamburg"><button id="btnslide" onclick="function1()">
+                    <img src="/megaplex_website/image/menu-button-of-three-horizontal-lines.png" alt="hamburger"
+                        id="threeLine" onclick="showSideBar()">
+                    <div class="cross"><img src="/megaplex_website/image/x-mark.png" alt="cross" id="cross"
+                            onclick="closeSideBar()">
+                    </div>
+                </button></div>
+        </div>
+        <div class="srch">
+            <input type="search" class="Search" placeholder="Search Here...">
+            <a href="#"><img src="/megaplex_website/image/searchicon.png" alt="Search_img" id="Searchicon"></a>
+        </div>
+    </header>
+
+    <!-- mobile sidebar view -->
+    <div class="slidebar" id="sld">
+        <div class="slidebar1">
+            <ul class="List1">
+                <li class="menu2" style="margin: 30px 0px;"><a href="index.html">HOME</a></li>
+                <li class="menu2" style="margin: 30px 0px;"><a href="#">PRODUCTS</a></li>
+                <li class="menu2" style="margin: 30px 0px;"><a href="#">CONTACT US</a></li>
+                <li class="menu2" style="margin: 30px 0px;"> <a href="#">ABOUT US</a> </li>
+                <li class="menu1"> <a href="/Creative_World/feedback.html" class="menu2">FEEDBACK</a> </li>
+                <li class="menu2" style="margin: 30px 0px;"> <a href="loginform.html" target="_self">LOG IN</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--  nav bar pc view -->
+    <nav id="Menu">
+        <ul class="List">
+            <li class="menu1"><a href="index.html" class="menu2">HOME</a></li>
+            <li class="menu1"><a href="#" class="menu2">PRODUCTS</a></li>
+            <li class="menu1"><a href="#" class="menu2">CONTACT US</a></li>
+            <li class="menu1"> <a href="#" class="menu2">ABOUT US</a> </li>
+            <li class="menu1"> <a href="/Creative_World/feedback.html" class="menu2">FEEDBACK</a> </li>
+        </ul>
+
+        <div class="btn">
+            <div class="cart"><a href="/Creative_World/cart.html"><img src="/megaplex_website/image/shopping-cart.png" alt="Sopping cart"></a>
+            </div>
+            <a href="loginform.html"><button>LOG IN</button></a>
+        </div>
+    </nav>
+
+    <!-- image slider bar -->
+    <div class="slideimg">
+        <div class="sub-slideimg">
+            <div class="photo">
+                <img src="/Creative_World/image/video/slideimage.jpg" alt="Product Image">
+            </div>
+        </div>
+    </div>
+
+    <!-- card section -->
+    <div class="carddsg">
+        <div class="imgsection">
+            <div class="subimgsection">
+                <img src="/Creative_World/image/folderimage.png" alt="Product image" class="front_img">
+                <img src="/Creative_World/image/video/book5.png" alt="Product Image" class="backword_img">
+            </div>
+        </div>
+        <div class="imgsection">
+            <div class="subimgsection">
+                <img src="/Creative_World/image/folderimage.png" alt="Product image" class="front_img">
+                <img src="/Creative_World/image/video/book5.png" alt="Product Image" class="backword_img">
+            </div>
+        </div>
+        <div class="imgsection">
+            <div class="subimgsection">
+                <img src="/Creative_World/image/folderimage.png" alt="Product image" class="front_img">
+                <img src="/Creative_World/image/video/book5.png" alt="Product Image" class="backword_img">
+            </div>
+        </div>
+        <div class="imgsection">
+            <div class="subimgsection">
+                <img src="/Creative_World/image/folderimage.png" alt="Product image" class="front_img">
+                <img src="/Creative_World/image/video/book7.png" alt="Product Image" class="backword_img">
+            </div>
+        </div>
+        <div class="imgsection">
+            <div class="subimgsection">
+                <img src="/Creative_World/image/folderimage.png" alt="Product image" class="front_img">
+                <img src="/Creative_World/image/video/book7.png" alt="Product Image" class="backword_img">
+            </div>
+        </div>
+        <div class="imgsection">
+            <div class="subimgsection">
+                <img src="/Creative_World/image/folderimage.png" alt="Product image" class="front_img">
+                <img src="/Creative_World/image/video/book7.png" alt="Product Image" class="backword_img">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+
+    <footer class="footerdsg">
+        <div class="sub-footerdsg">
+            <p>© Copyright 2023 All rights reserved. ❤️Developed by Creative World.</p>
+        </div>
+    </footer>
+</body>
+
+
+</html>

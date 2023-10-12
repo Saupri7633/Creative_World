@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,  initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            width: 50%;
+            height: 50px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            align-items: center;
+            position: center;
+        }
+
+        button:hover {
+            background-color: #45a049;
+            position: center;
+        }
+
+        .star-rating {
+            font-size: 10;
+            transform: rotateY(180deg);
+            text-align: center;
+            
+        }
+
+        .star-rating input {
+            display: none;
+        }
+
+        .star-rating label {
+            display: inline-block;
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            font-size: 25px;
+            color: #ddd;
+            
+        }
+
+        .star-rating input:checked ~ label {
+            color: #ffdd00;
+          
+        }
+
+        .star-rating label:hover,
+        .star-rating label:hover ~ label {
+            color: #ffdd00;
+           
+        }
+    </style>
+</head>
+<body>
+
+    
+
+    <h2>Feedback Form</h2>
+    
+    <form action="process_feedback.php" method="post">
+        <label for="feedback">Your Feedback:</label>
+        <textarea id="feedback" name="feedback" required></textarea>
+
+        <br>
+
+        <button type="submit">Submit Feedback</button>
+
+        <div class="star-rating">
+            <input type="radio" id="star5" name="rating" value="5" />
+            <label for="star5">&#9733;</label>
+            <input type="radio" id="star4" name="rating" value="4" />
+            <label for="star4">&#9733;</label>
+            <input type="radio" id="star3" name="rating" value="3" />
+            <label for="star3">&#9733;</label>
+            <input type="radio" id="star2" name="rating" value="2" />
+            <label for="star2">&#9733;</label>
+            <input type="radio" id="star1" name="rating" value="1" />
+            <label for="star1">&#9733;</label>
+        </div>
+    </form>
+
+</body>
+</html>
